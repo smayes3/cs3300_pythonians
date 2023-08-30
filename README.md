@@ -3,6 +3,7 @@ CS 3300 - Pythonians
 Shared team repo for documentation
 
 Members:
+
 - Tristen G.
 - Oz C.
 - Elise C.
