@@ -58,6 +58,8 @@ Comprehensive list of resources found that might be useful for this class
   - A tutorial for how to use Git and GitHub
 - [Intro to Git and GitHub](https://www.freecodecamp.org/news/introduction-to-git-and-github/)
   - Good resource for getting familiar with git and github, with offshoots to other resources
+- [Working with Git and GitHub for Python projects](https://www.pythonguis.com/tutorials/git-github-python/)
+  - Walks through how to set up/work with git, *including info for python and venv*
 
 
 ## Python
@@ -71,3 +73,5 @@ Comprehensive list of resources found that might be useful for this class
 ### VSCode
 - [Beginner VSCode Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
   - Basic tutorial for how to work with Python in VSCode
+
+
