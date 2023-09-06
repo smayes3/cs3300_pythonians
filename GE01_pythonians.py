@@ -1,3 +1,4 @@
-team = CS3300 - Pythonians
+team = 'CS3300 - Pythonians'
 print(team)
-Team Member - Oz 
+# Team Member - Oz 
+print('Tristen')
