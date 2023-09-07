@@ -9,3 +9,9 @@ print('Jonah')
 
 #Team Member - Elise
 print('Elise')
+
+#Team Member - Oz
+print("Oz")
+
+#Team Member - Stephanie
+print("Stephanie")
