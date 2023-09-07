@@ -4,5 +4,3 @@ print(team)
 # Team Member - Oz 
 print('Tristen')
 
-#Team Member - Jonah
-print('Jonah')
