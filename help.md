@@ -66,7 +66,7 @@ Comprehensive list of resources found that might be useful for this class
   
 *Using CLI to merge from local to remote repo (I used Git Bash, so may differ depending on your CLI)*  
 - check what you have set as remote repo (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories):  
-  `git remove -v` 
+  `git remote -v` 
 - in the cmd line, go to wherever you store your repo and checkout the "iteration01" branch:  
   `cd <path>`  
   `git checkout iteration01`
