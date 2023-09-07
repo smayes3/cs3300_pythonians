@@ -61,6 +61,36 @@ Comprehensive list of resources found that might be useful for this class
 - [Working with Git and GitHub for Python projects](https://www.pythonguis.com/tutorials/git-github-python/)
   - Walks through how to set up/work with git, *including info for python and venv*
 
+<details>    
+<summary> Steps for syncing remote and local repo: </summary>
+  
+*Using CLI to merge from local to remote repo (I used Git Bash, so may differ depending on your CLI)*  
+- check what you have set as remote repo (https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories):  
+  `git remove -v` 
+- in the cmd line, go to wherever you store your repo and checkout the "iteration01" branch:  
+  `cd <path>`  
+  `git checkout iteration01`
+- the file you have  locally is prob different than whats on the remote or it's not there at all. so pull the most updated "GE01_pythonians.py" file from the remote repo to your local repo:  
+  `git pull origin iteration01`  
+  <sub> origin references the remote repo that you looked at in step 1  
+  format is: "git pull <from/remote repo> <to/local repo>" </sub>
+- make sure that the file with updates was retrieved:  
+  `ls -al` <sub>(file should be shown)</sub>  
+  `cat <file>` <sub>(should show contents that match what you can see on GH)</sub>
+- make your edits:  
+  `vim <file>`
+- verify that its tracking that changes were made:  
+  `git status` <sub>(mine shows "......modified: <file>" in red)</sub>
+- stage file for commit and verify its been staged:
+  `git add <file>`  
+  `git status` <sub>(now mine shows the modified file in green)</sub>
+- commit changes  
+  `git commit -m "<message>"`
+- merge the local and remote repos.  
+  <sub>format is: "git push <to/remote repo> <from/local repo>"</sub>  
+  `git push origin iteration01`
+- now at this point if you check the branch on GH, you'll see the changes and you're done
+</details>
 
 ## Python
 ### Setup
