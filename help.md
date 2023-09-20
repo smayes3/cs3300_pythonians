@@ -106,9 +106,9 @@ Comprehensive list of resources found that might be useful for this class
 
 ## GE02 Resources 
 ### Troubleshoot guide
-- [Webpage will not update]([https://code.visualstudio.com/docs/sourcecontrol/overview](url))
+- [Webpage will not update](https://code.visualstudio.com/docs/sourcecontrol/overview)
 - Came across an issue where my webpage did not immediately update when modified in VSCode
-- 
+  
   
 
 
