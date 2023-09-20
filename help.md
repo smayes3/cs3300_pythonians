@@ -102,6 +102,13 @@ Comprehensive list of resources found that might be useful for this class
 
 ### VSCode
 - [Beginner VSCode Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
-  - Basic tutorial for how to work with Python in VSCode
+- - Basic tutorial for how to work with Python in VSCode
+
+## GE02 Resources 
+### Troubleshoot guide
+- [Webpage will not update]([https://code.visualstudio.com/docs/sourcecontrol/overview](url))
+- Came across an issue where my webpage did not immediately update when modified in VSCode
+- 
+  
 
 
